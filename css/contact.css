@@ -1,0 +1,110 @@
+/*CONTACT*/
+
+.contact{
+    padding-bottom: 75px;
+}
+.contact__inner{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -100px;
+    padding: 35px 110px 175px 110px;
+    -webkit-box-shadow: 0px 2px 19px rgba(0, 0, 0, 0.122);
+    -moz-box-shadow: 0px 2px 19px rgba(0, 0, 0, 0.122);
+    box-shadow: 0px 2px 19px rgba(0, 0, 0, 0.122);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.contact-bg{
+    position: absolute;
+    right: -17px;
+    bottom: -9px;
+    left: 0;
+    z-index: -1;
+}
+.contact__heading{
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.contact__label{
+    display: block;
+    padding-bottom: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.contact__text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #2A2A29;
+    text-decoration: none;
+}
+.contact__block{
+    width: 47%;
+    padding: 38px 0 48px 0;
+}
+.contact__block:first-child{
+    width: 53%;
+    border-right:5px solid #F8F8F8;
+}
+.contact-send{
+    max-width: 480px;
+}
+.contact-contact{
+    margin-left: auto;
+    max-width: 430px;
+}
+.contact-form{
+    margin-top: 33px;
+}
+.contact-form__field{
+    margin-bottom: 20px;
+}
+.contact-form__attach-label,
+.contact-form__submit{
+    display: inline-block;
+    width: 186px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 33px;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.contact-form__attach-label{
+    background-color: #A2B6FF;
+}
+.contact-form__submit{
+    background-color: #5EBBF2;
+}
+#contact-form__attach{
+    display: none;
+}
+.contact-contact__field{
+    margin-top: 28px;
+}
+.contact-contact__label{
+    margin-bottom: 9px;
+}

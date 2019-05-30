@@ -1,8 +1,14 @@
 @import 'landing.css';
 @import 'notifications.css';
+@import 'contact.css';
+@import 'search.css';
 @font-face {
     font-family: 'Rubik';
     src: url('../fonts/Rubik/Rubik-Regular.ttf');
+}
+@font-face {
+    font-family: 'FuturaBKBT';
+    src: url('../fonts/Futura/FuturaBKBT.ttf');
 }
 @font-face {
     font-family: 'FuturaBookC';
@@ -53,6 +59,54 @@ input, button{
 }
 .dn{
     display: none !important;
+}
+/*inout, textarea*/
+.inp-text,
+.inp-textarea{
+    display: block;
+    width: 100%;
+    background-color: #F3F2F3;
+    color: #2A2A29;
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+}
+.inp-text{
+    height: 35px;
+    line-height: 31px;
+    padding: 0 16px;
+}
+.inp-textarea{
+    height: 120px;
+    padding: 10px 16px;
+    resize: none;
+}
+.inp-text:focus,
+.inp-textarea:focus{
+    background-color: #F4FBFF;
+    border: 2px solid #54C3ED;
+}
+.inp-text::-webkit-input-placeholder,
+.inp-textarea::-webkit-input-placeholder {
+    color: #9D9D9C;
+}
+.inp-text::-moz-placeholder,
+.inp-textarea::-moz-placeholder {
+    color: #9D9D9C;
+}
+.inp-text:-ms-input-placeholder,
+.inp-textarea:-ms-input-placeholder {
+    color: #9D9D9C;
+}
+.inp-text:-moz-placeholder,
+.inp-textarea:-moz-placeholder {
+    color: #9D9D9C;
 }
 /*checkbox*/
 .inp-check{
@@ -321,6 +375,7 @@ input, button{
 .inp-navigation-search{
     position: relative;
     width: 30%;
+    min-width: 280px;
     height: 65px;
     line-height: 65px;
     padding: 0 70px;
