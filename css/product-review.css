@@ -618,3 +618,109 @@
     text-decoration-line: underline;
     color: #2A2A29;
 }
+.modal-box--product-review{
+    max-width: 531px;
+    min-height: 230px;
+}
+.modal-share{
+    width: 260px;
+}
+.modal-share__title{
+    margin-bottom: 34px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.modal-share__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.modal-report{
+    width: 484px;
+    padding: 53px 0 30px 0;
+    text-align: center;
+}
+.modal-report__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.modal-report__subtitle{
+    margin-top: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9D9D9C;
+}
+.modal-report__form{
+    text-align: left;
+}
+.modal-report__form-field{
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+}
+.modal-report__form-btn{
+    margin-top: 31px;
+    padding-top: 25px;
+    border-top: 1px solid #D9D9D9;
+    text-align: center;
+}
+.btn-modal-report{
+    width: 125px;
+    height: 45px;
+    line-height: 45px;
+    background: #5EBBF2;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.modal-report-thanx{
+    width: 413px;
+    padding: 45px 0 41px 0;
+    text-align: center;
+}
+.modal-report-thanx__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.modal-report-thanx__p{
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+}
+.modal-report-thanx__close{
+    display: inline-block;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #2A2A29;
+}

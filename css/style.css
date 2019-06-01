@@ -3,6 +3,7 @@
 @import 'contact.css';
 @import 'search.css';
 @import 'product-review.css';
+@import 'profiles.css';
 @font-face {
     font-family: 'Rubik';
     src: url('../fonts/Rubik/Rubik-Regular.ttf');
@@ -64,6 +65,54 @@ input, button{
 .center{
     text-align: center;
 }
+/*modal*/
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39, 0.42);
+    z-index: 99;
+}
+.modal-box{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+    -moz-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+}
+.modal-box__close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 37px;
+    height: 37px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    border: 2px solid #8EA4F3;
+    background: url("../img/close.svg") no-repeat center center, #fff;
+    cursor: pointer;
+}
+
 /*inout, textarea*/
 .inp-text,
 .inp-textarea{
