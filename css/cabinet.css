@@ -1,0 +1,206 @@
+/*CABINET*/
+
+.cabinet{
+    padding-bottom: 230px;
+}
+.cabinet-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -90px;
+    padding: 27px 0 51px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+    -moz-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+}
+.cabinet-menu{
+    width: 100%;
+    max-width: 340px;
+    padding-left: 25px;
+    border-right: 1px solid #D9D9D9;
+}
+.cabinet-menu__title{
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.cabinet-menu__list{
+    margin-top: 10px;
+}
+.cabinet-menu__item{
+    display: block;
+}
+.cabinet-menu__link,
+.cabinet-menu__sublink{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    color: #2A2A29;
+    text-decoration: none;
+    border-top-left-radius:45px;
+    border-bottom-left-radius:45px;
+}
+.cabinet-menu__link{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+.cabinet-menu__sublink{
+    height: 31px;
+    line-height: 31px;
+    padding: 0 50px;
+    font-size: 12px;
+}
+.cabinet-menu__link_active,
+.cabinet-menu__link:hover,
+.cabinet-menu__sublink_active,
+.cabinet-menu__sublink:hover{
+    background: #D7EFFF;
+    color: #008DC9;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 9px rgba(200, 234, 255, 0.51);
+    -moz-box-shadow: 0px 0px 9px rgba(200, 234, 255, 0.51);
+    box-shadow: 0px 0px 9px rgba(200, 234, 255, 0.51);
+}
+.cabinet-menu-trianlge{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #2A2A29;
+}
+.cabinet-menu__item_opened .cabinet-menu-trianlge,
+.cabinet-menu__item:hover .cabinet-menu-trianlge{
+    border-top: none;
+    border-bottom: 4px solid #2A2A29;
+}
+.cabinet-menu__sublist{
+    display: none;
+}
+.cabinet-menu__item_opened .cabinet-menu__sublist,
+.cabinet-menu__item:hover .cabinet-menu__sublist{
+    display: block;
+}
+.cabinet-content{
+    flex: 1;
+    padding: 0 60px;
+}
+
+/*CABINET LEVEL*/
+
+.cabinet-levels__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A2A29;
+}
+.cabinet-levels__subtile{
+    margin: 8px 0 15px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.cabinet-levels__description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.cabinet-levels__list{
+    margin-top: 35px;
+}
+.cabinet-levels-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.cabinet-levels-btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 293px;
+    height: 29px;
+    padding: 0 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background: #E9E9E9;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2A2A29;
+}
+.cabinet-levels-btn__name{
+    width: 45px;
+}
+.cabinet-levels-btn__dash{
+    margin: 0 28px;
+}
+.cabinet-levels-btn__points span{
+    font-weight: normal;
+    font-size: 11px;
+}
+.cabinet-levels-item-info{
+    margin-left: 10px;
+}
+.cabinet-levels-item-info__arrow,
+.cabinet-levels-item-info__text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cabinet-levels-item-info__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2A2A29;
+}
+.cabinet-levels-btn_active{
+    color: #FFFFFF;
+}
+.cabinet-levels-btn--one{
+    background: #5EBBF2;
+}
+.cabinet-levels-btn--two{
+    background: #629CF2;
+}
+.cabinet-levels-btn--three{
+    background: #7076F9;
+}
+.cabinet-levels-btn--four{
+    background: #8C70F9;
+}
+.cabinet-levels-btn--five{
+    background: #A964FF;
+}
+.cabinet-levels-btn--six{
+    background: #C15DFE;
+}
+.cabinet-levels-btn--seven{
+    background: #D85DF7;
+}
+.cabinet-levels-btn--eight{
+    background: #EA6CDE;
+}
+.cabinet-levels-btn--nine{
+    background: #EA6CB0;
+}
+.cabinet-levels-btn--ten{
+    background: #F46972;
+}

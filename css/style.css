@@ -4,6 +4,7 @@
 @import 'search.css';
 @import 'product-review.css';
 @import 'profiles.css';
+@import 'cabinet.css';
 @font-face {
     font-family: 'Rubik';
     src: url('../fonts/Rubik/Rubik-Regular.ttf');
