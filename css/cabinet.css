@@ -96,6 +96,10 @@
 
 /*CABINET LEVEL*/
 
+.cabinet-box--levels{
+    padding-bottom: 383px;
+    background: url("../img/cabinet/levels/cabinet-levels-bg.svg") no-repeat bottom center, #FFFFFF;
+}
 .cabinet-levels__title{
     font-style: normal;
     font-weight: bold;
