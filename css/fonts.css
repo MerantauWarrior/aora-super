@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik/Rubik-Regular.ttf');
+}
+@font-face {
+    font-family: 'FuturaBKBT';
+    src: url('../fonts/Futura/FuturaBKBT.ttf');
+}
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url('../fonts/Futura/FuturaBookC.eot');
+    src: local('Futura Book Cyrillic'), local('FuturaBookC'),
+    url('../fonts/Futura/FuturaBookC.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Futura/FuturaBookC.woff') format('woff'),
+    url('../fonts/Futura/FuturaBookC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

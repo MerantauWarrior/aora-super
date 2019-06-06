@@ -672,3 +672,460 @@
 .modal-cabinet-odrers .btn-modal-report{
     width: 174px;
 }
+
+/*CABINET EARNINGS*/
+
+.cabinet-earnings__top{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cabinet-earnings__top-text{
+    max-width: 483px;
+}
+.cabinet-earnings__title{
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A2A29;
+}
+.cabinet-earnings__description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.cabinet-earnings__img{
+    margin-left: auto;
+}
+.cabinet-earnings-bank__label{
+    padding: 3px 0 10px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #2A2A29;
+}
+.cabinet-earnings-bank__box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 21px;
+    padding: 21px 40px 21px 30px;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+    -moz-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.142);
+}
+.cabinet-earnings-bank__logo{
+    max-width: 100px;
+}
+.cabinet-earnings-bank__card{
+    margin-left: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: #3B3838;
+}
+.cabinet-earnings-bank__name{
+    margin-left: 62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #3B3838;
+}
+.cabinet-earnings-bank__controls{
+    margin-left: auto;
+}
+.cabinet-earnings-bank__btn{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.cabinet-earnings-bank__btn:last-child{
+    margin-left: 25px;
+}
+.cabinet-earnings-bank-redeem__form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.cabinet-earnings-bank-redeem__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+}
+.cabinet-earnings-bank-redeem__text span{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #9D9D9C;
+}
+.cabinet-earnings-bank-redeem__inp{
+    width: 100%;
+    max-width: 300px;
+}
+.cabinet-earnings-bank-redeem__btn{
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    background: #5EBBF2;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.cabinet-earnings-bank__add{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 314px;
+    height: 35px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    border: 2px solid #8EA4F3;
+    background-color: #fff;
+    cursor: pointer;
+}
+.cabinet-earnings-bank__add img{
+    margin-right: 8px;
+}
+.cabinet-earnings-history{
+    margin-top: 18px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+.cabinet-earnings-history-point{
+    padding: 0 13px 26px 13px;
+    background-color: #F8F8F8;
+}
+.cabinet-earnings-history-point__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cabinet-earnings-history-point__item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 144px;
+    height: 75px;
+    margin-top: 20px;
+    padding: 13px 10px 9px 10px;
+    background-color: #fff;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.12);
+}
+.cabinet-earnings-history-point__label{
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5EBBF2;
+}
+.cabinet-earnings-history-point__value{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2A2A29;
+}
+.cabinet-earnings-history-point__btn{
+    max-width: 378px;
+    height: 35px;
+    line-height: 35px;
+    margin: 24px auto 0 auto;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    background-color: #5EBBF2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.cabinet-earnings-history-table{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3B3838;
+}
+.cabinet-earnings-history-table__head,
+.cabinet-earnings-history-table__row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.cabinet-earnings-history-table__head{
+    background-color: #DEE5FC;
+    font-weight: bold;
+    color: #2A2A29;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+.cabinet-earnings-history-table__row:nth-child(even){
+    background-color: #F8F8F8;
+}
+.cabinet-earnings-history-table__row:hover{
+    background-color: #E2F2FD;
+}
+.cabinet-earnings-history-table__cell{
+    padding: 0 10px;
+}
+.cabinet-earnings-history-table__cell:nth-child(1){
+   width: 70px;
+}
+.cabinet-earnings-history-table__cell:nth-child(2){
+    width: 160px;
+}
+.cabinet-earnings-history-table__cell:nth-child(3){
+    width: 110px;
+}
+.cabinet-earnings-history-table__cell:nth-child(4){
+    width: 80px;
+}
+.cabinet-earnings-history-table__cell:nth-child(5){
+    width: 100px;
+}
+.cabinet-earnings-history-table__cell:nth-child(6){
+    width: 100px;
+}
+.cabinet-earnings-status{
+    position: relative;
+}
+.cabinet-earnings-status__pending:before,
+.cabinet-earnings-status__confirmed:before,
+.cabinet-earnings-status__rejected:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.cabinet-earnings-status__pending:before{
+    background-color: #FFA959;
+}
+.cabinet-earnings-status__confirmed:before{
+    background-color: #5DD053;
+}
+.cabinet-earnings-status__rejected:before{
+    background-color: #FF6868;
+}
+.cabinet-earnings-history-table__controls{
+    margin: 22px 0 25px 0;
+    text-align: center;
+}
+.cabinet-earnings-history-table-btn{
+    display: inline-block;
+    margin: 0 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #2A2A29;
+    cursor: pointer;
+}
+.cabinet-earnings-history-table-btn_disabled{
+    color: #CDCDCD;
+    cursor: not-allowed;
+}
+.cabinet-earnings-history-currency{
+    margin: 24px 0 31px 0;
+}
+.cabinet-earnings-history-currency__title{
+    margin-bottom: 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9D9D9C;
+}
+.cabinet-earnings-history-currency__text{
+    margin-left: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2A2A29;
+}
+.cabinet-earnings-history-currency__item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cabinet-earnings-history-currency__select{
+    width: 314px;
+    height: 35px;
+    padding: 0 18px 0 13px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #000000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+}
+.cabinet-earnings-history-currency__select-triangle{
+    margin-left: auto;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #2A2A29;
+}
+.modal-cabinet-earnings{
+    width: 100%;
+    padding: 26px 24px 30px 24px;
+    text-align: center;
+}
+.modal-cabinet-earnings__center{
+    max-width: 350px;
+    display: inline-block;
+}
+.modal-cabinet-earnings__img{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.modal-cabinet-earnings__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2A2A29;
+}
+.modal-cabinet-earnings__text{
+    margin: 15px 0 40px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: #2A2A29;
+}
+.modal-cabinet-earnings__btns{
+    padding-top: 25px;
+    border-top: 1px solid #D9D9D9;
+    text-align: center;
+}
+.modal-cabinet-earnings__btn{
+    display: inline-block;
+    width: 174px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5EBBF2;
+    cursor: pointer;
+}
+.modal-cabinet-earnings__center-continue{
+    max-width: 390px;
+    display: inline-block;
+}
+.modal-cabinet-earnings__history{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 42px;
+    font-family: 'FuturaBKBT', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #2A2A29;
+}
+.modal-cabinet-earnings-form{
+    width: 100%;
+    max-width: 446px;
+    padding: 37px 15px 54px 15px;
+}
+.modal-cabinet-earnings-form__title{
+    margin-bottom: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #2A2A29;
+}
+.modal-cabinet-earnings-form__field{
+    margin-bottom: 20px;
+}
+.modal-cabinet-earnings-form__label{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+}
+.modal-cabinet-earnings-form__btn{
+    padding-top: 20px;
+    text-align: center;
+}
