@@ -6,6 +6,7 @@
 @import 'product-review.css';
 @import 'profiles.css';
 @import 'cabinet.css';
+@import 'checkout.css';
 
 html, body{
     margin: 0;
@@ -228,6 +229,81 @@ input, button{
 .inp-text:-moz-placeholder,
 .inp-textarea:-moz-placeholder {
     color: #9D9D9C;
+}
+.inp-error{
+    background: #FFF1F1;
+    border: 2px solid #FD8888;
+    color: #F27171;
+}
+.error-input{
+    margin-top: 2px;
+    padding: 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #F27171;
+}
+.phone-input{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+}
+.phone-input__code{
+    margin-right: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+}
+/*radio*/
+.inp-radio{
+    display: none;
+}
+.label-radio{
+    position: relative;
+    padding-left: 17px;
+}
+.label-radio span{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A29;
+}
+.label-radio:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #2A2A29;
+}
+.label-radio:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    margin: 4px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #E3E3E3;
+}
+.inp-radio:checked + .label-radio:after{
+    background-color: #5EBBF2;
 }
 /*checkbox*/
 .inp-check{
