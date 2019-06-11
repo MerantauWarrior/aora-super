@@ -7,6 +7,7 @@
 @import 'profiles.css';
 @import 'cabinet.css';
 @import 'checkout.css';
+@import 'create.css';
 
 html, body{
     margin: 0;
@@ -48,6 +49,9 @@ input, button{
 .dn{
     display: none !important;
 }
+.posr{
+    position: relative;
+}
 .center{
     text-align: center;
 }
@@ -59,6 +63,7 @@ input, button{
     bottom: 0;
     left: 0;
     background-color: rgba(39, 39, 39, 0.42);
+    overflow-y: auto;
     z-index: 99;
 }
 .modal-box{
@@ -139,9 +144,10 @@ input, button{
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: #fff;
+    z-index: 10;
 }
 .select-dd__list{
-    height: 250px;
+    max-height: 250px;
     overflow: auto;
 }
 .select-b:hover .select-dd{
@@ -167,7 +173,7 @@ input, button{
     border-bottom: 11px solid #FFFFFF;
 }
 .select-dd__item{
-    height: 34px;
+    min-height: 34px;
     padding: 0 23px;
     line-height: 34px;
     background-color: #fff;
@@ -181,6 +187,26 @@ input, button{
 }
 .select-dd__item:hover{
     background-color: #D6EEFD;
+}
+/*btn plus*/
+.btn-plus{
+    width: 37px;
+    height: 37px;
+    line-height: 33px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
+    border: 2px solid #8EA4F3;
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-plus:hover{
+    background-color: #ACBEFF;
 }
 /*inout, textarea*/
 .inp-text,
