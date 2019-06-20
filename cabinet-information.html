@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Create Post</title>
+  <title>Cabinet Information</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js"></script>
 </head>
@@ -219,131 +219,136 @@
 
 <section class="page-top">
   <div class="container container--wide">
-    <h1 class="page-title">Create post</h1>
+    <h1 class="page-title">my Account</h1>
     <div class="breadcrumbs">
       <a href="#" class="breadcrumbs__item">Home</a>
       <div class="breabcrumbs__separator">></div>
-      <span class="breadcrumbs__item">Create post</span>
+      <a href="#" class="breadcrumbs__item">My profile</a>
+      <div class="breabcrumbs__separator">></div>
+      <span class="breadcrumbs__item">My Information</span>
     </div>
   </div>
 </section>
 
-<section class="create-post">
+<section class="cabinet">
   <div class="container container--regular">
-    <div class="create-post__inner">
-      <div class="create-post__editable">
-        <div class="create-post-main">
-          <div class="create-post-gallery">
-            <div class="create-post-gallery__big">
-              <img src="img/create/img-big-holder.svg" alt="">
+    <div class="cabinet-box">
+      <div class="cabinet-menu">
+        <div class="cabinet-menu__title">My account</div>
+        <ul class="cabinet-menu__list">
+          <li class="cabinet-menu__item">
+            <a href="#" class="cabinet-menu__link">My profile</a>
+          </li>
+          <li class="cabinet-menu__item">
+            <div class="cabinet-menu__link">My orders <span class="cabinet-menu-trianlge"></span></div>
+            <div class="cabinet-menu__sublist">
+              <a href="#" class="cabinet-menu__sublink">Quotes in process</a>
+              <a href="#" class="cabinet-menu__sublink cabinet-menu__sublink_active">Live orders</a>
+              <a href="#" class="cabinet-menu__sublink">Past orders</a>
+              <a href="#" class="cabinet-menu__sublink">Cancelled orders</a>
             </div>
-            <div class="create-post-gallery__list">
-              <div class="create-post-gallery__img">
-                <img src="img/create/img-holder.svg" alt="">
-              </div>
+          </li>
+          <li class="cabinet-menu__item">
+            <a href="#" class="cabinet-menu__link">My rewards</a>
+          </li>
+          <li class="cabinet-menu__item">
+            <a href="#" class="cabinet-menu__link">My earnings</a>
+          </li>
+          <li class="cabinet-menu__item">
+            <a href="#" class="cabinet-menu__link">My level</a>
+          </li>
+          <li class="cabinet-menu__item cabinet-menu__item_opened">
+            <div class="cabinet-menu__link">My information <span class="cabinet-menu-trianlge"></span></div>
+            <div class="cabinet-menu__sublist">
+              <a href="#" class="cabinet-menu__sublink cabinet-menu__sublink_active">Personal details</a>
+              <a href="#" class="cabinet-menu__sublink">Addresses</a>
             </div>
-          </div>
-          <div class="create-post-info">
-            <div class="create-post-info__row">
-              <label for="t" class="label-create-post-info create-post-title">Title <span class="create-optional">(Optional)</span></label>
-              <input type="text" name="t" id="t" class="inp-text"
-                     placeholder="Craft a great title to get more eyeballs">
+          </li>
+        </ul>
+      </div>
+      <div class="cabinet-content">
+        <div class="cabinet-information">
+          <div class="cabinet-information__title">My Information</div>
+          <form method="get">
+            <div class="cabinet-information__subtitle">My Information</div>
+            <div class="cabinet-information__field">
+              <label for="q" class="label-cabinet-information">First Name</label>
+              <input type="text" name="q" id="q" class="inp-text" value="Stella" required>
             </div>
-            <div class="create-post-info__row">
-              <label for="d" class="label-create-post-info create-post-title">Description</label>
-              <textarea name="d" id="d" class="inp-textarea"
-                        placeholder="Share with everyone why you love this product, and why they should get it for themselves!"></textarea>
+            <div class="cabinet-information__field">
+              <label for="qq" class="label-cabinet-information">Last Name</label>
+              <input type="text" name="qq" id="qq" class="inp-text" value="Ng" required>
             </div>
-            <div class="create-post-hint">
-              <div class="create-post-hint__icon"><img src="img/create/hint.svg"></div>
-              <div class="create-post-hint__text">Whip up your phone and snap a pic! Show the community how the product
-                looks and can be used in real life.
-              </div>
+            <div class="cabinet-information__field">
+              <label for="wq" class="label-cabinet-information">Email Address</label>
+              <input type="email" name="wq" id="wq" class="inp-text" value="bunnywhee@gmail.com" required>
             </div>
-          </div>
-        </div>
-        <div class="create-post-category">
-          <div class="create-post-category__info">
-            <div class="create-post-title">Add Category of Product</div>
-            <div class="create-post-category__select">
+            <div class="cabinet-information__field">
+              <label for="qw" class="label-cabinet-information">Username</label>
+              <input type="text" name="qw" id="qw" class="inp-text" value="happybunnies" required>
+            </div>
+            <div class="cabinet-information__field">
+              <label for="we" class="label-cabinet-information">Bio</label>
+              <input type="text" name="we" id="we" class="inp-text" placeholder="Write a few words about you" required>
+            </div>
+            <div class="cabinet-information__field">
+              <label for="ew" class="label-cabinet-information">Password</label>
+              <input type="password" name="ew" id="ew" class="inp-text" placeholder="*************" required>
+            </div>
+            <div class="cabinet-information__subtitle">Additional Information</div>
+            <div class="cabinet-information__field">
+              <label for="" class="label-cabinet-information">Nationality</label>
               <div class="select-b">
-                <div class="select-b__value">Select the category</div>
+                <div class="select-b__value">Select country</div>
                 <div class="select-b__triangle"></div>
                 <div class="select-dd">
                   <div class="select-dd__list">
-                    <div class="select-dd__item">DBS/POSB Bank</div>
-                    <div class="select-dd__item">UOB Bank</div>
-                    <div class="select-dd__item">Citibank</div>
-                    <div class="select-dd__item">Standard Chartered Singapore</div>
-                    <div class="select-dd__item">HSBC Bank</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
                   </div>
                 </div>
               </div>
-              <div class="btn-plus">+</div>
             </div>
-          </div>
-          <div class="create-post-hint">
-            <div class="create-post-hint__icon"><img src="img/create/hint.svg"></div>
-            <div class="create-post-hint__text">Categorising your post helps you to reach the right people</div>
-          </div>
+            <div class="cabinet-information__field">
+              <label for="" class="label-cabinet-information">Bio</label>
+              <div class="cabinet-information-inp-small-container">
+                <div class="cabinet-information-inp-small">
+                  <input type="text" name="qwee" id="qwee" class="inp-text center" placeholder="DD">
+                </div>
+                <div class="cabinet-information-inp-small">
+                  <input type="text" name="qwee" id="qwee" class="inp-text center" placeholder="MM">
+                </div>
+                <div class="cabinet-information-inp-small">
+                  <input type="text" name="qwee" id="qwee" class="inp-text center" placeholder="YYYY">
+                </div>
+              </div>
+            </div>
+            <div class="cabinet-information__field">
+              <label for="" class="label-cabinet-information">Gender</label>
+              <div class="select-b">
+                <div class="select-b__value">Not Specified</div>
+                <div class="select-b__triangle"></div>
+                <div class="select-dd">
+                  <div class="select-dd__list">
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                    <div class="select-dd__item">United States</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cabinet-information__bnts">
+              <button class="btn-cabinet-information" type="submit">Save</button>
+            </div>
+          </form>
         </div>
-        <div class="create-post-tag">
-          <div class="create-post-tag__info">
-            <div class="create-post-title">Tag a product <span class="create-optional">(Optional)</span></div>
-            <div class="create-post-tag__description">Show the community where to buy your recommended product(s)</div>
-            <a href="#" class="create-post-tag__create"><span>+</span>Create a tag</a>
-          </div>
-          <div class="create-post-hint">
-            <div class="create-post-hint__icon"><img src="img/create/hint.svg"></div>
-            <div class="create-post-hint__text">Stand a chance to earn rebates if the recommended product is from USA,
-              China, or our affiliate partners in Singapore
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="create-post-recommendations">
-        <div class="create-post-title">CURATE PRODUCT RECOMMENDATIONS & EARN!</div>
-        <div class="create-post-recommendations__items">
-          <div class="create-post-recommendations__item">
-            <div class="create-post-recommendations__icon">
-              <img src="img/create/reccomendations-1.svg">
-              <div class="create-post-recommendations__icon-number">1</div>
-            </div>
-            <div class="create-post-recommendations__name">Create post</div>
-            <div class="create-post-recommendations__description">Share quality reviews of the products you’ve bought
-              and loved
-            </div>
-          </div>
-          <div class="create-post-recommendations__item">
-            <div class="create-post-recommendations__icon">
-              <img src="img/create/reccomendations-2.svg">
-              <div class="create-post-recommendations__icon-number">2</div>
-            </div>
-            <div class="create-post-recommendations__name">Post and share</div>
-            <div class="create-post-recommendations__description">Post your reviews and share them with your friends
-            </div>
-          </div>
-          <div class="create-post-recommendations__item">
-            <div class="create-post-recommendations__icon">
-              <img src="img/create/reccomendations-3.svg">
-              <div class="create-post-recommendations__icon-number">3</div>
-            </div>
-            <div class="create-post-recommendations__name">Earn in cash</div>
-            <div class="create-post-recommendations__description">Earn up to 2% of the product value whenever someone
-              makes a purchase through your post
-            </div>
-          </div>
-          <div class="create-post-recommendations__items-separate-one">
-            <img src="img/create/reccomendations-separate-1.svg">
-          </div>
-          <div class="create-post-recommendations__items-separate-two">
-            <img src="img/create/reccomendations-separate-2.svg">
-          </div>
-        </div>
-      </div>
-      <div class="create-post-btns">
-        <a href="#" class="create-post-btns__cancel">Cancel</a>
-        <a href="#" class="create-post-btns__post">Post the product</a>
       </div>
     </div>
   </div>
