@@ -547,7 +547,7 @@ input, button{
 .navigation-menu-item__link{
     display: inline-block;
     vertical-align: middle;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     color: #2A2A29;
@@ -686,7 +686,7 @@ input, button{
     width: 119px;
     height: 35px;
     line-height: 31px;
-    font-weight: 500;
+    font-weight: bold;
     -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
     -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.154);

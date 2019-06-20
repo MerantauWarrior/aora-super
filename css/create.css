@@ -577,3 +577,8 @@
     line-height: 17px;
     color: #2A2A29;
 }
+.create-optional{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+}

@@ -100,6 +100,7 @@
 }
 .search-no-result__img{
     display: inline-block;
+    max-width: 430px;
     margin: 114px 0 86px 0;
 }
 .search-users{
@@ -118,7 +119,7 @@
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    border: 1px solid transparent;
+    /*border: 1px solid transparent;*/
     text-decoration: none;
     overflow: hidden;
 }

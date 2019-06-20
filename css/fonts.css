@@ -16,3 +16,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url('../fonts/Futura/FuturaMediumC.eot');
+    src: local('Futura Book Cyrillic'), local('FuturaMediumC'),
+    url('../fonts/Futura/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Futura/FuturaMediumC.woff') format('woff'),
+    url('../fonts/Futura/FuturaMediumC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
