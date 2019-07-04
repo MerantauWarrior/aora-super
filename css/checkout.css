@@ -116,7 +116,6 @@
 .checkout-shipping-tab:first-child{
     border-top-left-radius: 9px;
     border-bottom-left-radius: 9px;
-    border-right:none;
 }
 .checkout-shipping-tab:last-child{
     border-top-right-radius: 9px;

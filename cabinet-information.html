@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cabinet Information</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
   <script src="js/script.js"></script>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class="navigation-navigation-menu-item__icon">
           <img src="img/menu/menu-1.svg" alt="cat-ry name">
         </div>
-        <a href="#" class="navigation-menu-item__link">Fashion</a>
+        <a href="#" class="navigation-menu-item__link"><span>Fashion&</span>Accessories</a>
       </div>
       <div class="navigation-menu-item">
         <div class="navigation-navigation-menu-item__icon">
@@ -28,7 +29,7 @@
         <div class="navigation-navigation-menu-item__icon">
           <img src="img/menu/menu-3.svg" alt="cat-ry name">
         </div>
-        <a href="#" class="navigation-menu-item__link">Home appliances</a>
+        <a href="#" class="navigation-menu-item__link"><span>Home</span> appliances</a>
       </div>
       <div class="navigation-menu-item">
         <div class="navigation-navigation-menu-item__icon">
@@ -38,15 +39,16 @@
       </div>
       <div class="navigation-menu-item">
         <div class="navigation-navigation-menu-item__icon">
-          <img src="img/menu/menu-5.svg" alt="cat-ry name">
+          <img src="img/menu/menu-5.png" alt="cat-ry name">
+          <!--<img src="img/menu/menu-5.svg" alt="cat-ry name">-->
         </div>
-        <a href="#" class="navigation-menu-item__link">Accessories</a>
+        <a href="#" class="navigation-menu-item__link">Food</a>
       </div>
       <div class="navigation-menu-item">
         <div class="navigation-navigation-menu-item__icon">
           <img src="img/menu/menu-6.svg" alt="cat-ry name">
         </div>
-        <a href="#" class="navigation-menu-item__link">Home&Decor</a>
+        <a href="#" class="navigation-menu-item__link"><span>Home&</span>Decor</a>
       </div>
       <div class="navigation-menu-item">
         <div class="navigation-navigation-menu-item__icon">
@@ -70,7 +72,7 @@
         <div class="navigation-navigation-menu-item__icon">
           <img src="img/menu/menu-10.svg" alt="cat-ry name">
         </div>
-        <a href="#" class="navigation-menu-item__link">Babies&Kids</a>
+        <a href="#" class="navigation-menu-item__link"><span>Babies&</span>Kids</a>
       </div>
       <div class="navigation-menu-item">
         <div class="navigation-navigation-menu-item__icon">
@@ -83,6 +85,18 @@
           <img src="img/menu/menu-12.svg" alt="cat-ry name">
         </div>
         <a href="#" class="navigation-menu-item__link">Others</a>
+      </div>
+      <div class="navigation-menu-item">
+        <div class="navigation-navigation-menu-item__icon">
+          <img src="img/menu/menu-13.png" alt="cat-ry name">
+        </div>
+        <a href="#" class="navigation-menu-item__link">Travel </a>
+      </div>
+      <div class="navigation-menu-item">
+        <div class="navigation-navigation-menu-item__icon">
+          <img src="img/menu/menu-14.png" alt="cat-ry name">
+        </div>
+        <a href="#" class="navigation-menu-item__link"><span>Life</span> hacks</a>
       </div>
     </div>
     <div class="navigation-menu__additional">
@@ -233,6 +247,11 @@
 <section class="cabinet">
   <div class="container container--regular">
     <div class="cabinet-box">
+      <div class="cabinet-menu-mobile">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div class="cabinet-menu">
         <div class="cabinet-menu__title">My account</div>
         <ul class="cabinet-menu__list">
@@ -401,5 +420,13 @@
   </div>
 </section>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementsByClassName('cabinet-menu-mobile')[0].addEventListener('click', function () {
+      this.classList.toggle('cabinet-menu-mobile_opened');
+      document.getElementsByClassName('cabinet-menu')[0].classList.toggle('cabinet-menu_opened');
+    });
+  });
+</script>
 </body>
 </html>
