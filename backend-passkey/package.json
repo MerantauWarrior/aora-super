@@ -1,0 +1,13 @@
+{
+  "name": "passkey-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@simplewebauthn/server": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
